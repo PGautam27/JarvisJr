@@ -28,3 +28,26 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+-story: food
+  steps:
+  -intent: food
+  -action: utter_ask_cuisine
+  -action: utter_did_that_help
+  -intent: action_search_recipe
+  -action: utter_did_that_help
+  -intent: food
+  -action: action_recommend_restaurant
+  -action: utter_did_that_help
+
+  -story: joke
+  steps:
+  -intent: joke
+  -action: action_tell_joke
+  -action: utter_did_that_help
+  -intent: joke
+  -action: action_search_joke
+  -action: utter_did_that_help
+  -intent: joke
+  -action: utter_ask_joke_preference
+  -action: utter_did_that_help
