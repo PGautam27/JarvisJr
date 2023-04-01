@@ -89,3 +89,25 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+-intent: food
+ examples:
+    -yummy
+    -tasty
+    -delicious
+    -delectable
+    -piquant
+    -luscious
+    -resturant
+    -hotel
+    -food recommendations
+    -recipe
+
+-intent: joke
+  examples:
+    -funny
+    -comedy
+    -humor
+    -laughter
+    -joke
+    -entertain
+    -make us smile
